@@ -1,3 +1,10 @@
+//FOR FUTURE UPDATES
+//Step 1: Append champion to championList
+//Step 2: Iterate "let champNum = Math.floor(Math.random() * 166);" by 1
+//Done
+
+
+
 /*
 const btnAdd = document.querySelector(".randomizer");
 btnAdd.addEventListener("click", addNew);
@@ -326,88 +333,98 @@ let championList = [{
     name: 'Zoe', realName: 'Zoe'
 }, { 
     name: 'Zyra', realName: 'Zyra'
+}, { 
+    name: 'KSante', realName: 'K&#39;Sante'
+}, { 
+    name: 'Milio', realName: 'Milio'
+}, { 
+    name: 'Naafiri', realName: 'Naafiri'
+}, { 
+    name: 'Briar', realName: 'Briar'
+}, { 
+    name: 'Hwei', realName: 'Hwei'
 }];
 
 let randomList = [{ 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }, { 
-    name: 'null', id: '161'
+    name: 'null', id: '999'
 }];
 
 let numList0 = [];
@@ -432,11 +449,11 @@ function setList(num1)
     {
         if (num1 == 0)
         {
-            numList0[i] = 162;
+            numList0[i] = 999;
         }
         else
         {
-            numList1[i] = 162;
+            numList1[i] = 999;
         }
     }
 }
@@ -450,7 +467,7 @@ function createList(num1)
         // resets to true to avoid infinite loop
         noRepeat = true;
         // randomizing number
-        let champNum = Math.floor(Math.random() * 161);
+        let champNum = Math.floor(Math.random() * 166);
         // printing out numbers before removing dupes
         //cout << champNum << endl; 
         // checks all the numbers in the array to see if the number generated is a dupe 
@@ -531,7 +548,7 @@ function addNew(num1, name, id)
     let imgContainer = cell;
     let imgCell = document.createElement('div');
     let img = document.createElement("img");
-    img.setAttribute("src", 'https://ddragon.leagueoflegends.com/cdn/12.16.1/img/champion/' + name + '.png');
+    img.setAttribute("src", 'https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/' + name + '.png');
     img.classList.add('image');
     imgCell.appendChild(img);
     imgContainer.appendChild(imgCell);
